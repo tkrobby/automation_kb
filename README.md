@@ -4,7 +4,7 @@ This is repository for automation testing UI and API, I using python fot automat
 ## Running automation
 - First plase to directoty project `cd project`
 - For running automation UI please run `pytest test_ui/test_kitabisa_register.py -s -v --alluredir='reports'`
-- - For running automation API please run `pytest test_api/test_api_kitabisa.py -s -v --alluredir='reports'`
+- For running automation API please run `pytest test_api/test_api_kitabisa.py -s -v --alluredir='reports'`
 
 ## Report automation
 - For show report you, please run `allure serve reports/`
